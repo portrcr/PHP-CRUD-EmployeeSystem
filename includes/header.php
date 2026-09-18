@@ -18,5 +18,6 @@
 			<a href="addEmployee.php">Add New Employee</a>
 			<a href="editEmployee.php">Modify Employee Data</a>
 			<a href="removeEmployee.php">Remove An Employee</a>
+			<a href="removeDept.php">Remove Department</a>
 		</nav>
 	</header>
