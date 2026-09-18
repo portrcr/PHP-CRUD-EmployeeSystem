@@ -9,7 +9,7 @@
 	<form action="editEmployee.php" method="POST">
 		<div>
 			<label for="employee_id">Employee ID:</label>
-			<input type="number" id="employee_id" name="employee_id" required>
+			<input type="number" id="employee_id" name="employee_id" min="1" step="1" required>
 		</div>
 		<div>
 			<label for="firstname">First Name:</label>
@@ -29,7 +29,7 @@
 		</div>
 		<div>
 			<label for="dept_id">Department ID:</label>
-			<input type="number" id="dept_id" name="dept_id">
+			<input type="number" id="dept_id" name="dept_id" min="1" step="1">
 		</div>
 		<div>
 			<button type="submit">Update Employee</button>

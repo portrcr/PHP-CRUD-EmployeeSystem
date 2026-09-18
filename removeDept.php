@@ -9,7 +9,7 @@
 	<form action="removeDept.php" method="POST">
 		<div>
 			<label for="department_id">Department ID:</label>
-			<input type="number" id="department_id" name="department_id" required>
+			<input type="number" id="department_id" name="department_id" min="1" step="1" required>
 		</div>
 		<div>
 			<button type="submit">Remove Department</button>

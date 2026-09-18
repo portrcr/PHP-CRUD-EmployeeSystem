@@ -25,7 +25,7 @@
 		</div>
 		<div>
 			<label for="dept_id">Department ID:</label>
-			<input type="number" id="dept_id" name="dept_id">
+			<input type="number" id="dept_id" name="dept_id" min="1" step="1">
 		</div>
 		<div>
 			<button type="submit">Add Employee</button>

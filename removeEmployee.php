@@ -9,7 +9,7 @@
 	<form action="removeEmployee.php" method="POST">
 		<div>
 			<label for="employee_id">Employee ID:</label>
-			<input type="number" id="employee_id" name="employee_id" required>
+			<input type="number" id="employee_id" name="employee_id" min="1" step="1" required>
 		</div>
 		<div>
 			<button type="submit">Remove Employee</button>
