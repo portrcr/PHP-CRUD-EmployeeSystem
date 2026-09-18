@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Global Reset & Box Sizing
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Base Page Styles (Background, Font, Text Color)
+   ========================================================================== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f6f8; /* Light gray page background */
+  color: #333;               /* Dark readable text */
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Header & Top Navigation Bar
+   ========================================================================== */
+/* Header background container */
+header {
+  background-color: #1e293b; /* Dark slate background */
+  padding: 0.75rem 1.5rem;
+}
+
+/* Navigation links container - horizontal flex layout */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Individual navigation link items */
+nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Hover state for navigation links */
+nav a:hover {
+  background-color: #334155;
+  color: #fff;
+}
+
+/* ==========================================================================
+   Main Content Container (Card Box)
+   ========================================================================== */
+main {
+  max-width: 650px;           /* Limit form width for readability */
+  margin: 2rem auto;          /* Center the card horizontally on screen */
+  padding: 2rem;
+  background: #fff;           /* White card background */
+  border-radius: 8px;         /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Subtle drop shadow */
+}
+
+/* Section Headings */
+h1, h2 {
+  margin-bottom: 1.25rem;
+  color: #0f172a;
+}
+
+/* ==========================================================================
+   Form Styling
+   ========================================================================== */
+/* Spacing between each form field row */
+form > div {
+  margin-bottom: 1rem;
+}
+
+/* Form input labels */
+label {
+  display: block;             /* Places label above the input */
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+/* Text, email, phone, and number input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+  width: 100%;                /* Full width of the card */
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cbd5e1;  /* Light border */
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Highlighted outline when an input is selected / focused */
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); /* Soft blue focus ring */
+}
+
+/* Submit and action buttons */
+button {
+  background-color: #2563eb;  /* Primary blue color */
+  color: #fff;
+  border: none;
+  padding: 0.65rem 1.25rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Hover state for buttons */
+button:hover {
+  background-color: #1d4ed8;  /* Darker blue on hover */
+}
+
+/* ==========================================================================
+   Dashboard Quick Links & Lists
+   ========================================================================== */
+ul {
+  list-style: none;           /* Remove default bullet points */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+ul li a {
+  display: inline-block;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
