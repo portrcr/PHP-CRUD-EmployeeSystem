@@ -41,12 +41,15 @@
 	<section>
 		<h2>Quick Links</h2>
 		<ul>
-			<li><a href="employeeList.php">List Current Employees</a></li>
-			<li><a href="addEmployee.php">Add New Employee</a></li>
-			<li><a href="editEmployee.php">Modify Employee Data</a></li>
-			<li><a href="removeEmployee.php">Remove An Employee</a></li>
-			<li><a href="deptList.php">Current Departments</a></li>
-			<li><a href="addDept.php">Add New Department</a></li>
+			<h4>Employee management</h4>
+			<li><a href="employeeList.php">All Employees</a></li>
+			<li><a href="addEmployee.php">New Employee</a></li>
+			<li><a href="editEmployee.php">Edit Employee Data</a></li>
+			<li><a href="removeEmployee.php">Remove Employee</a></li>
+
+			<h4>Department management</h4>
+			<li><a href="deptList.php">All Departments</a></li>
+			<li><a href="addDept.php">New Department</a></li>
 			<li><a href="removeDept.php">Remove Department</a></li>
 		</ul>
 	</section>

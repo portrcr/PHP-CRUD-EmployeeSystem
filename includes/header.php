@@ -12,12 +12,13 @@
 	<header>
 		<nav>
 			<a href="index.php">Dashboard</a>
-			<a href="deptList.php">Current Departments</a>
-			<a href="addDept.php">Add New Department</a>
-			<a href="employeeList.php">List Of Current Employees</a>
-			<a href="addEmployee.php">Add New Employee</a>
-			<a href="editEmployee.php">Modify Employee Data</a>
-			<a href="removeEmployee.php">Remove An Employee</a>
+			<a href="employeeList.php">All Employees</a>
+			<a href="addEmployee.php">New Employee</a>
+			<a href="editEmployee.php">Edit Employee Data</a>
+			<a href="removeEmployee.php">Remove Employee</a>
+			<a href="deptList.php">All Departments</a>
+			<a href="addDept.php">New Department</a>
 			<a href="removeDept.php">Remove Department</a>
+
 		</nav>
 	</header>
