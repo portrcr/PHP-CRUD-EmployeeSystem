@@ -1,8 +1,8 @@
 <?php
 	$host		= "localhost";
-	$dbname		= "employee_db";
-	$user		= "root";
-	$pass		= "";
+	$dbname		= "u473058213_employee_db";
+	$user		= "u473058213_root";
+	$pass		= "M;bc*m;%9K3%P)v";
 	$charset	= "utf8mb4";
 
 	$dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
